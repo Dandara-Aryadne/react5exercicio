@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+body {
+  background: url("https://res.cloudinary.com/practicaldev/image/fetch/s--FUFoeQpW--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/p5wilmn62vczuw4z7kjy.png");
+  background-size: cover;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.titulo {
+  color: navy;
+  border: solid aquamarine 1px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+.titulo:hover {
+  cursor: pointer;
+  color: blueviolet;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  color: blueviolet;
+}
+.number:hover {
+  color: navy;
+  cursor: pointer;
+}
+.ordem {
+  display: flex;
+  justify-content: center;
+  color: burlywood;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: url("https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/css-background-image-linear-gradient.png?fit=1048%2C670&ssl=1");
+    background-size: cover;
+  }
+  .number {
+    color: white;
+  }
+  .ordem {
+    color: lightblue;
+  }
+  .titulo {
+    color: purple;
+    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+  }
+}
